@@ -9,6 +9,7 @@ name: 'Main'
 
     <div class="container-main d-flex ">
       <div class="card">
+        
         <span class="discount">-50&percnt;</span>
             <span class="heart">&hearts;</span>
             <div class="descr">
@@ -17,6 +18,7 @@ name: 'Main'
               <span class="red-price">&euro;14.98</span>
               <span class="barred-price">&euro;29.99</span>
             </div>
+            
       </div>
 
       
