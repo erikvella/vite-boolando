@@ -46,3 +46,25 @@ justify-content: space-around;
   background-color: rgba(0, 255, 255, 0.479);
   height: 700px;
 }
+
+.discount{
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
+.heart{
+  font-size: 2rem;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.card:hover .heart{
+  color: red;
+}
