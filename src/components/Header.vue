@@ -1,0 +1,59 @@
+<script>
+export default {
+name: 'Header'
+}
+</script>
+
+
+<template>
+  <header>
+
+
+    <div class="header-top">
+
+                     <!-- menu relativo al genere di articoli da mostrare -->
+      <div class="container-head d-flex ">
+         <div>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Donna</a>
+                <a href="#">Uomo</a>
+                <a href="#">Bambino</a>
+              </li>
+            </ul>
+          </nav>
+         </div>
+
+
+         <div class="py-10">
+            <img  id="logo" src="/src/assets/boolean-logo.png" alt="logo boolean">
+         </div>
+
+            <!-- menu relativo all'user -->
+         <div>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">&hearts;</a>
+                <a href="#">&block;</a>
+                <a href="#">&profline;</a>
+              </li>
+            </ul>
+          </nav>
+         </div>
+
+      </div>
+
+      
+
+    </div>
+
+
+  </header>
+</template>
+
+
+<style lang="scss" scoped>
+
+</style>

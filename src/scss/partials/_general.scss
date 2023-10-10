@@ -1,0 +1,48 @@
+@use './variabiles';
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.header-top{
+  width: 100%;
+  background-color: rgb(211, 117, 10);
+  position: fixed;
+  top: 0;
+  box-shadow:0 1px 3px;
+  z-index: 999;
+}
+
+.container-head{
+  width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+justify-content: space-between;
+align-items: center;
+color: white;
+
+}
+
+
+.container-main{
+  width: 90%;
+max-width: 1200px;
+margin: 100px auto;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.card{
+  width: 350px;
+  background-color: rgba(0, 255, 255, 0.479);
+  height: 700px;
+}
