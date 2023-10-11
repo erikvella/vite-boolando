@@ -3,7 +3,7 @@ export default {
 name : 'Card',
 
 props:{
-product : Object
+product : 'object'
 
 }
 }
@@ -15,9 +15,9 @@ product : Object
         
       
         <img class="img1" 
-        :src="/src/assets/product.primaryImage" alt="">
+        :src="`/src/assets/`+product.primaryImage" alt="">
         <img class="img2" 
-        :src="/src/assets/product.secondaryImage" alt="1b">
+        :src="`/src/assets/`+product.secondaryImage" alt="1b">
 
          <span class="discount">{{ product.discount }}</span>
 
@@ -26,8 +26,8 @@ product : Object
         <div class="descr">
           <span class="marca">{{ product.marca }}</span>
           <h3>{{ product.modello }}</h3>
-          <span class="red-price">&euro;{{ product.fullPrice }}</span>
-          <span class="barred-price">&euro;{{ product.lastPrice }}</span>
+          <span class="red-price">&euro;{{ product.lastPrice }}</span>
+          <span class="barred-price">&euro;{{ product.fullPrice }}</span>
         </div>
 
   </div>
@@ -37,5 +37,7 @@ product : Object
 
 
 <style lang="scss" scoped>
-
+.barred-price{
+  margin-left: 15px;
+}
 </style>
