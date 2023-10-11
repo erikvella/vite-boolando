@@ -58,7 +58,7 @@ export default [
     id: 13287475,
     primaryImage: '6.webp',
     secondaryImage: '6b.webp',
-    discount: null,
+    discount: '-0%',
     sostenibilita: false,
     marca: "Esprit",
     modello: 'MAGLIONE - BLACK',
