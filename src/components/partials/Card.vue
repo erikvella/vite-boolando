@@ -1,10 +1,20 @@
 <script>
+import { computed } from 'vue'
 export default {
 name : 'Card',
 
 props:{
 product : 'object'
 
+},
+
+computed:{
+  fullPrice(){
+    return `&euro; ${this.product.fullPrice.toFixed(2 ,'0')}`
+  },
+  lastPrice(){
+    return `&euro; ${this.product.lastPrice.toFixed(2 ,'0')}`
+  }
 }
 }
 </script>

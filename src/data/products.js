@@ -51,7 +51,7 @@ export default [
     sostenibilita: true,
     marca: "Maya Deluxe",
     modello: 'STRIPE BODICE',
-    fullPrice: null,
+    fullPrice: 200.00,
     lastPrice: 99.99
   },
   {
@@ -62,7 +62,7 @@ export default [
     sostenibilita: false,
     marca: "Esprit",
     modello: 'MAGLIONE - BLACK',
-    fullPrice: null,
+    fullPrice: 29.99,
     lastPrice: 29.99,
   },
 ];
