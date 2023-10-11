@@ -17,7 +17,7 @@ product : Object
         <img class="img1" 
         :src="/src/assets/product.primaryImage" alt="">
         <img class="img2" 
-        :src="/src/assets/secondaryImage" alt="1b">
+        :src="/src/assets/product.secondaryImage" alt="1b">
 
          <span class="discount">{{ product.discount }}</span>
 
