@@ -14,18 +14,20 @@ product : Object
   <div class="card">
         
       
-        <img class="img1" src="/src/assets/1.webp" alt="">
-        <img class="img2" src="/src/assets/1b.webp" alt="1b">
+        <img class="img1" 
+        :src="/src/assets/product.primaryImage" alt="">
+        <img class="img2" 
+        :src="/src/assets/secondaryImage" alt="1b">
 
-         <span class="discount">-50&percnt;</span>
+         <span class="discount">{{ product.discount }}</span>
 
         <span class="heart">&hearts;</span>
 
         <div class="descr">
-          <span class="marca">Levi's</span>
-          <h3>RELAXED FIT TEE UNISEX</h3>
-          <span class="red-price">&euro;14.98</span>
-          <span class="barred-price">&euro;29.99</span>
+          <span class="marca">{{ product.marca }}</span>
+          <h3>{{ product.modello }}</h3>
+          <span class="red-price">&euro;{{ product.fullPrice }}</span>
+          <span class="barred-price">&euro;{{ product.lastPrice }}</span>
         </div>
 
   </div>
