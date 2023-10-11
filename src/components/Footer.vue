@@ -32,19 +32,19 @@ name: 'Footer'
       <div class="legal">
         <ul class="d-flex"> 
           <li>
-            <i class="fa-brands fa-twitter">twit</i>
+            <i class="fa-brands fa-twitter"></i>
           </li>
           <li>
-            <i class="fa-brands fa-facebook">fb</i>
+            <i class="fa-brands fa-facebook"></i>
           </li>
           <li>
-            <i class="fa-brands fa-instagram">ig</i>
+            <i class="fa-brands fa-instagram"></i>
           </li>
           <li>
         ??
           </li>
           <li>
-            <i class="fa-brands fa-youtube">yt</i>
+            <i class="fa-brands fa-youtube"></i>
           </li>
         </ul>
       </div>
@@ -60,4 +60,7 @@ name: 'Footer'
 
 <style lang="scss" scoped>
 
+li , h4{
+  margin-left: 15px;
+}
 </style>
