@@ -20,8 +20,10 @@ data(){
     <div class="container-main d-flex ">
 
 
-      <Card v-for="product in products" 
+      <Card 
+      v-for="product in products" 
       :key="product.id"
+      :product="product"
       
        />
     
