@@ -35,9 +35,9 @@ name: 'Header'
           <nav>
             <ul>
               <li>
-                <a href="#">&hearts;</a>
-                <a href="#">&block;</a>
-                <a href="#">&profline;</a>
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-lock"></i></a>
               </li>
             </ul>
           </nav>
@@ -55,5 +55,7 @@ name: 'Header'
 
 
 <style lang="scss" scoped>
-
+a:hover{
+  text-decoration: underline;
+}
 </style>
